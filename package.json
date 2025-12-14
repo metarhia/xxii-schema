@@ -1,0 +1,47 @@
+{
+  "name": "xxii-schema",
+  "version": "0.0.0",
+  "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
+  "license": "MIT",
+  "description": "XXII Chat Schema",
+  "keywords": [
+    "xxii",
+    "model",
+    "schema",
+    "domain",
+    "metarhia"
+  ],
+  "main": "index.js",
+  "files": [
+    "schemas/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metarhia/xxii-schema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metarhia/xxii-schema/issues",
+    "email": "timur.shemsedinov@gmail.com"
+  },
+  "homepage": "https://metarhia.com",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/tshemsedinov"
+  },
+  "scripts": {
+    "test": "npm run lint && node --test",
+    "lint": "eslint . && prettier --check \"**/*.js\" \"**/*.json\" \"**/*.md\"",
+    "fix": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\""
+  },
+  "dependencies": {
+    "metaschema": "^2.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "eslint-config-metarhia": "^9.1.4",
+    "prettier": "^3.6.2"
+  }
+}

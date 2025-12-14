@@ -1,2 +1,1 @@
-# xxii-schema
-XXII Chat Schema
+# XXII Chat Schema
